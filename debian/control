@@ -1,0 +1,15 @@
+Source: artomico
+Section: x11
+Priority: extra
+Maintainer: Santiago Gil <santiago@unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: https://github.com/PCI-TDF/artomico
+#Vcs-Git: git://git.debian.org/collab-maint/artomico.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/artomico.git;a=summary
+
+Package: artomico
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, node-webkit
+Description: La tabla periódica interactiva mas divertida del mundo.
+ Química y arte se unen en esta tabla periódica líbre desarrollada en Tierra del Fuego
