@@ -3,11 +3,10 @@
     "main": "index.html",
     "nodejs": false,
     "window": {
-        "window": {
-              "title": "Proyecto Artómico",
-              "icon": "/usr/share/artomico/artomico.png",
-              "toolbar": false,
-              "width": 800,
-              "height": 500
-                   }
+        "title": "Proyecto Artómico",
+        "icon": "/usr/share/artomico/artomico.png",
+        "toolbar": false,
+        "width": 800,
+        "height": 500
+    }
 }
