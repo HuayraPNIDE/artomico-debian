@@ -42,13 +42,13 @@ function program5(depth0,data) {
   return buffer;
   }
 
-  data.buffer.push("<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\n  <!-- Brand and toggle get grouped for better mobile display -->\n  <div class=\"navbar-header\">\n    <a class=\"btn btn-navbar navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-ex1-collapse\" ");
+  data.buffer.push("<nav class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\n    <div class=\"container-fluid\">\n  <!-- Brand and toggle get grouped for better mobile display -->\n  <div class=\"navbar-header\">\n    <a class=\"btn btn-navbar navbar-toggle\" data-toggle=\"collapse\" data-target=\"#navbar-ex1-collapse\" ");
   hashContexts = {'href': depth0};
   hashTypes = {'href': "STRING"};
   data.buffer.push(escapeExpression(helpers.bindAttr.call(depth0, {hash:{
     'href': ("view.href")
   },contexts:[],types:[],hashContexts:hashContexts,hashTypes:hashTypes,data:data})));
-  data.buffer.push(">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"icon-bar\"></span>\n      <span class=\"icon-bar\"></span>\n      <span class=\"icon-bar\"></span>\n    </a>\n    <a class=\"navbar-brand\" href=\"#\"><img src='assets/images/logochico.png'></a>\n  </div>\n\n  <!-- Collect the nav links, forms, and other content for toggling -->\n  <div class=\"collapse navbar-collapse navbar-ex1-collapse\">\n    <ul class=\"nav navbar-nav\">\n      <li>");
+  data.buffer.push(">\n      <span class=\"sr-only\">Toggle navigation</span>\n      <span class=\"icon-bar\"></span>\n      <span class=\"icon-bar\"></span>\n      <span class=\"icon-bar\"></span>\n    </a>\n    <a class=\"navbar-brand\" href=\"#\"><img src='assets/images/logochico.png'></a>\n  </div>\n\n  <!-- Collect the nav links, forms, and other content for toggling -->\n  <div class=\"collapse navbar-collapse\" id=\"navbar-ex1-collapse\">\n    <ul class=\"nav navbar-nav\">\n      <li>");
   hashContexts = {'tagName': depth0};
   hashTypes = {'tagName': "STRING"};
   options = {hash:{
@@ -72,7 +72,7 @@ function program5(depth0,data) {
   },inverse:self.noop,fn:self.program(5, program5, data),contexts:[depth0],types:["STRING"],hashContexts:hashContexts,hashTypes:hashTypes,data:data};
   stack2 = ((stack1 = helpers.linkTo || depth0.linkTo),stack1 ? stack1.call(depth0, "proyecto", options) : helperMissing.call(depth0, "linkTo", "proyecto", options));
   if(stack2 || stack2 === 0) { data.buffer.push(stack2); }
-  data.buffer.push("</li>\n    </ul>\n    <ul class=\"nav navbar-nav navbar-right\">\n      <li><a href=\"https://twitter.com/ProyectoARTomic\"><span class=\"fa fa-twitter\"></span></a></li>\n      <li><a href=\"https://www.facebook.com/ProyectoARTomico\"><i class=\"fa fa-facebook-square\"></i></a></li>\n      <li><a href=\"#\"><span class=\"fa fa-github-alt\"></span></a></li>\n    </ul>\n  </div><!-- /.navbar-collapse -->\n</nav>\n\n\n   <div class='container'> ");
+  data.buffer.push("</li>\n    </ul>\n    <ul class=\"nav navbar-nav navbar-right\">\n      <li><a href=\"https://twitter.com/ProyectoARTomic\"><span class=\"fa fa-twitter\"></span></a></li>\n      <li><a href=\"https://www.facebook.com/ProyectoARTomico\"><i class=\"fa fa-facebook-square\"></i></a></li>\n      <li><a href=\"https://github.com/PCI-TDF/artomico\"><span class=\"fa fa-github-alt\"></span></a></li>\n    </ul>\n  </div><!-- /.navbar-collapse -->\n</div>\n</nav>\n\n\n   <div class='container'> ");
   hashTypes = {};
   hashContexts = {};
   data.buffer.push(escapeExpression(helpers._triageMustache.call(depth0, "outlet", {hash:{},contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data})));
@@ -108,7 +108,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
     'src': ("ogg")
   },contexts:[],types:[],hashContexts:hashContexts,hashTypes:hashTypes,data:data};
   data.buffer.push(escapeExpression(((stack1 = helpers['bind-attr'] || depth0['bind-attr']),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "bind-attr", options))));
-  data.buffer.push("/></audio></div></div></div><div class='col-md-4 col-md-offset-1 datos'><h1>");
+  data.buffer.push("/></audio><br /></div></div></div><div class='col-md-4 col-md-offset-1 datos'><h1>");
   hashTypes = {};
   hashContexts = {};
   data.buffer.push(escapeExpression(helpers._triageMustache.call(depth0, "sigla", {hash:{},contexts:[depth0],types:["ID"],hashContexts:hashContexts,hashTypes:hashTypes,data:data})));
@@ -143,7 +143,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
     'href': ("wiki")
   },contexts:[],types:[],hashContexts:hashContexts,hashTypes:hashTypes,data:data};
   data.buffer.push(escapeExpression(((stack1 = helpers['bind-attr'] || depth0['bind-attr']),stack1 ? stack1.call(depth0, options) : helperMissing.call(depth0, "bind-attr", options))));
-  data.buffer.push(" target='new'><i class='fa fa-link'></i>&nbsp;&nbsp;En Wikipedia</a>\n</div>\n</div></div>\n \n");
+  data.buffer.push(" target='new'><i class='fa fa-link'></i>&nbsp;&nbsp;En Wikipedia</a><br /><br /><a class='btn btn-default btn-small' href='#tabla'><span class='fa fa-arrow-left'></span>&nbsp;&nbsp;volver</a>\n</div>\n</div></div>\n \n");
   return buffer;
   
 }); });
@@ -154,7 +154,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   
 
 
-  data.buffer.push("<div class='col-md-6'><div id=\"atom\">\n                <div class=\"orbit\">\n                    <div class=\"path\">\n                        <div class=\"electron rojo\"></div>\n                    </div>\n                </div>\n                <div class=\"orbit\">\n                    <div class=\"path\">\n                        <div class=\"electron azul\"></div>\n                    </div>\n                </div>\n                <div class=\"orbit\">\n                    <div class=\"path\">\n                        <div class=\"electron verde\"></div>\n                    </div>\n                </div>\n                <div id=\"nucleus\"></div>\n            </div></div>\n<div class='col-md-6 pull-right'><img src='./assets/images/logo.png' class='logo'></div>\n");
+  data.buffer.push("<div class='text-center'><img src='./assets/images/logo.png' class='logo'></div>\n");
   
 }); });
 
