@@ -1,0 +1,3 @@
+data/* /usr/share/artomico
+debian/artomico.desktop /usr/share/applications
+debian/artomico.png /usr/share/artomico/

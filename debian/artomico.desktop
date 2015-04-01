@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Proyecto Artómico
+Comment=Tabla periódica
+Exec=/usr/bin/nw /usr/share/artomico/
+Terminal=false
+Type=Application
+Categories=Education;
+Icon=/usr/share/artomico/artomico.png

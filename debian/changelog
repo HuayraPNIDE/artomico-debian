@@ -1,3 +1,10 @@
+artomico (0.1.0-1.1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Cambio de nombre de paquete
+
+ -- Javier Castrillo <riverplatense@gmail.com>  Wed, 01 Apr 2015 13:14:48 -0300
+
 artomico (0.1.0-1) unstable; urgency=low
 
   * Initial release
